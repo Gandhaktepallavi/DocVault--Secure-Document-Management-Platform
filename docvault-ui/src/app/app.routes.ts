@@ -1,8 +1,8 @@
 import { Routes } from '@angular/router';
-import { UploadComponent } from './upload/upload.component';
-import { DocumentListComponent } from './document-list/document-list.component';
+import { Upload } from './upload/upload';
+import { DocumentList } from './document-list/document-list';
 
 export const routes: Routes = [
-  { path: '', component: UploadComponent },
-  { path: 'documents', component: DocumentListComponent }
+  { path: '', component: Upload },
+  { path: 'documents', component: DocumentList }
 ];
